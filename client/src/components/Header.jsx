@@ -29,7 +29,7 @@ export default function Header() {
                 </button>
                 <Link to='/sign-in'>
                     {/* Assuming this is a custom button component */}
-                    <Button gradientDuoTone="purpleToBlue" pill="true"> {/* Corrected pill attribute */}
+                    <Button gradientDuoTone="purpleToBlue" pill="true" outline> {/* Corrected pill attribute */}
                         Sign In
                     </Button>
                 </Link>
